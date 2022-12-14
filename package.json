@@ -1,0 +1,32 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demotesting",
+  "main": "index.js",
+  "scripts": {
+    "test": " "
+  },
+  "author": "test",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "colors": "^1.4.0",
+    "ffmpeg": "^0.0.4",
+    "testcafe": "^2.0.1",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-custom": "^1.2.1",
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-reportportal": "^1.0.29",
+    "xpath-to-css": "^1.1.0"
+  },
+  "jshintConfig": {
+    "esversion": 9,
+    "asi": true
+  },
+  
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.9.0",
+    "cucumber": "^6.0.7",
+    "cypress": "^11.0.1"
+  }
+}

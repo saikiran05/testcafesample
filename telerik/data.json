@@ -1,0 +1,24 @@
+[
+    {
+    "dropdown1":"Product questions",
+    "dropdown2":"DevCraft",
+    "firstname":"saikiran",
+    "lastname":"reddy",
+    "bussinessemail":"abc@gmail.com",
+    "companyname":"abc soluctions",
+    "country":"USA",
+    "phonenumber":"8528526565",
+    "comments":"not applicable"
+    },
+    {
+        "dropdown1":"Invoicing/Billing",
+        "dropdown2":"Kendo UI",
+        "firstname":"prasanth",
+        "lastname":"sankurabothu",
+        "bussinessemail":"psankurabothu@gmial.com",
+        "companyname":"xyz soluctions",
+        "country":"Andorra",
+        "phonenumber":"7207202624",
+        "comments":"not applicable"
+    }
+]
