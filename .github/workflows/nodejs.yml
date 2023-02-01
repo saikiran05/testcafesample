@@ -1,0 +1,15 @@
+name: TestCafe workfloe
+
+on:[push]
+
+jobs:
+  buildid:
+    name: Runs TestCafe
+      runs-on: ubentu-latest
+    
+    steps:
+      -uses: actions/saikiran05
+      -name: Install TestCafe from npm and rRun Tests
+        uses: DevExpress/testcafe-action@latest
+        with:
+          args: "chrome tests"
