@@ -23,7 +23,7 @@ test('sample test' ,async t => {
     
     .maximizeWindow()
     .setTestSpeed(0.1)
-    .debug()
+    //.debug()
     .click(home.stopanimation)
     .hover(home.allProducts)
     .click(home.learnmore)
@@ -75,7 +75,7 @@ dataset.forEach(data =>{
 test('contact us1',async t =>{
   await t
   .maximizeWindow()
-  .debug()
+ // .debug()
   .click(home.contacticon)
   .click(contactus.whatcanihelpwithyou)
   .click(contactus.whatcanihelpwithyou.find('option').withText(data.dropdown1))
@@ -96,7 +96,7 @@ test('contact us1',async t =>{
 test.only('manual data insertion ',async t =>{
   await t
   .maximizeWindow()
-  .debug()
+//  .debug()
   .click(home.contacticon)
   .click(contactus.whatcanihelpwithyou)
   .click(contactus.whatcanihelpwithyou.find('option').withText("Product questions"))
