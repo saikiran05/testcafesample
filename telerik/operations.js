@@ -93,7 +93,7 @@ test('contact us1',async t =>{
   // .expect(getPageURL()).contains('sitefinity')
 })});
 
-test.only('manual data insertion ',async t =>{
+test('manual data insertion ',async t =>{
   await t
   .maximizeWindow()
 //  .debug()
